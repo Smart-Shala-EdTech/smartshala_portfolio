@@ -8,7 +8,6 @@ import { FeaturedProjectsSection } from "@/components/marketing/FeaturedProjects
 import { HeroSection } from "@/components/marketing/HeroSection";
 import { ProcessSection } from "@/components/marketing/ProcessSection";
 import { ServicesSection } from "@/components/marketing/ServicesSection";
-import { TestimonialsSection } from "@/components/marketing/TestimonialsSection";
 import { WhyChooseSection } from "@/components/marketing/WhyChooseSection";
 import { organizationJsonLd, websiteJsonLd } from "@/data/seo";
 
@@ -30,7 +29,6 @@ export default function Home() {
         <WhyChooseSection />
         <ProcessSection />
         <FeaturedProjectsSection />
-        <TestimonialsSection />
         <FAQSection />
         <ContactSection />
       </main>
