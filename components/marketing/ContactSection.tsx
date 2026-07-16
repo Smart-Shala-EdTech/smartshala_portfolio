@@ -1,15 +1,13 @@
-import { Github, Linkedin, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Linkedin, Mail, MessageCircle } from "lucide-react";
 import { ButtonLink } from "@/components/common/Button";
 import { MarketingCard } from "@/components/common/MarketingCard";
 import { SectionHeader } from "@/components/common/SectionHeader";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 const contactLinks = [
-  { icon: Mail, label: "Email", value: "hello@smartshala.com", href: "mailto:hello@smartshala.com" },
-  { icon: MessageCircle, label: "WhatsApp", value: "Start a chat", href: "https://wa.me/910000000000" },
+  { icon: Mail, label: "Email", value: "smartshala0@gmail.com", href: "mailto:smartshala0@gmail.com" },
+  { icon: MessageCircle, label: "WhatsApp", value: "Start a chat", href: "https://wa.me/917408859799" },
   { icon: Linkedin, label: "LinkedIn", value: "SmartShala", href: "https://www.linkedin.com/company/smartshala" },
-  { icon: Github, label: "GitHub", value: "smartshala", href: "https://github.com/smartshala" },
-  { icon: MapPin, label: "Location", value: "India", href: "https://maps.google.com/?q=India" },
 ];
 
 export function ContactSection() {
