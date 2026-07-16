@@ -34,9 +34,6 @@ export function Footer() {
             <a href="https://www.linkedin.com/company/smartshala" className="hover:text-brand-primary">
               LinkedIn
             </a>
-            <a href="https://github.com/smartshala" className="hover:text-brand-primary">
-              GitHub
-            </a>
           </div>
         </div>
         <div>
