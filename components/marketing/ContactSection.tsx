@@ -51,7 +51,7 @@ export function ContactSection() {
             <div className="mt-6 rounded-lg border border-brand-soft bg-brand-primary/5 p-4 text-sm leading-6 text-secondary">
               We typically reply within 24 hours with useful questions, not a generic sales script.
             </div>
-            <ButtonLink href="https://calendly.com/smartshala/consultation" variant="secondary" className="mt-5 w-full">
+            <ButtonLink href="https://calendly.com/smartshala" variant="secondary" className="mt-5 w-full">
               Book Consultation
             </ButtonLink>
           </MarketingCard>
