@@ -28,8 +28,8 @@ export function Footer() {
         <div>
           <h3 className="font-semibold">Contact</h3>
           <div className="mt-4 grid gap-3 text-sm text-secondary">
-            <a href="mailto:smartshala0@gmail.com" className="hover:text-brand-primary">
-              smartshala0@gmail.com
+            <a href="mailto:info@smartshala.net" className="hover:text-brand-primary">
+              info@smartshala.net
             </a>
             <a href="https://www.linkedin.com/company/smartshala" className="hover:text-brand-primary">
               LinkedIn

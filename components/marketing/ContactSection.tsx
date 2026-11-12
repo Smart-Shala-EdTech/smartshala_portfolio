@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/common/SectionHeader";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 const contactLinks = [
-  { icon: Mail, label: "Email", value: "smartshala0@gmail.com", href: "mailto:smartshala0@gmail.com" },
+  { icon: Mail, label: "Email", value: "info@smartshala.net", href: "mailto:info@smartshala.net" },
   { icon: MessageCircle, label: "WhatsApp", value: "Start a chat", href: "https://wa.me/917408859799" },
   { icon: Linkedin, label: "LinkedIn", value: "SmartShala", href: "https://www.linkedin.com/company/smartshala" },
 ];
