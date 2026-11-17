@@ -74,25 +74,13 @@ export function NavBar() {
         </button>
       </nav>
       {open ? (
-        <div
-          className={cn(
-            "border-t backdrop-blur-md md:hidden",
-            scrolled
-              ? "border-border bg-surface/95"
-              : "border-surface/20 bg-primary/90",
-          )}
-        >
+        <div className="border-t border-border bg-surface shadow-xl md:hidden">
           <div className="container-grid flex flex-col gap-3 py-5">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className={cn(
-                  "rounded-lg px-2 py-2 font-medium",
-                  scrolled
-                    ? "text-primary/80 hover:bg-brand-primary/5 hover:text-brand-primary"
-                    : "text-surface/85 hover:bg-surface/10 hover:text-surface",
-                )}
+                className="rounded-lg px-3 py-2.5 font-medium text-primary hover:bg-brand-primary/5 hover:text-brand-primary"
                 onClick={() => setOpen(false)}
               >
                 {link.label}

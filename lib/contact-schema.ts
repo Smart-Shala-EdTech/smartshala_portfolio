@@ -52,11 +52,12 @@ export const contactSchema = z.object({
   email: z
     .string()
     .trim()
-    .optional()
-    .refine((val) => !val || z.string().email().safeParse(val).success, {
-      message: "Please enter a valid email address.",
-    }),
-  company: z.string().trim().optional(),
+    .min(1, "Please enter your email address.")
+    .email("Please enter a valid email address."),
+  company: z
+    .string()
+    .trim()
+    .min(2, "Please enter your company or dealership name."),
   budget: z
     .string()
     .trim()

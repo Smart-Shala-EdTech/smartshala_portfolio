@@ -136,7 +136,7 @@ export function ContactForm() {
       <div className="grid gap-5 md:grid-cols-2">
         <div>
           <label className="text-sm font-medium" htmlFor="email">
-            Email <span className="text-xs text-secondary">(optional)</span>
+            Email <span className="text-danger">*</span>
           </label>
           <input
             id="email"
@@ -145,6 +145,7 @@ export function ContactForm() {
             inputMode="email"
             autoComplete="email"
             placeholder="you@company.com"
+            aria-required="true"
             aria-invalid={Boolean(errors.email)}
             aria-describedby={errors.email ? "email-error" : undefined}
             {...register("email")}
@@ -153,15 +154,19 @@ export function ContactForm() {
         </div>
         <div>
           <label className="text-sm font-medium" htmlFor="company">
-            Company Name <span className="text-xs text-secondary">(optional)</span>
+            Company Name <span className="text-danger">*</span>
           </label>
           <input
             id="company"
             className="field mt-2"
             autoComplete="organization"
             placeholder="Your firm or dealership"
+            aria-required="true"
+            aria-invalid={Boolean(errors.company)}
+            aria-describedby={errors.company ? "company-error" : undefined}
             {...register("company")}
           />
+          <FieldError id="company-error" message={errors.company?.message} />
         </div>
       </div>
 
