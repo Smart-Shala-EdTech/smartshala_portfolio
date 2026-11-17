@@ -19,7 +19,7 @@ export function HeroSection() {
             SmartShala helps startups and SMBs turn complex operations into calm, scalable products with custom software, practical AI, and dependable delivery.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <ButtonLink href="/?type=consultation#contact">
+            <ButtonLink href="#contact">
               Book Free Consultation
               <ArrowRight size={18} aria-hidden="true" />
             </ButtonLink>

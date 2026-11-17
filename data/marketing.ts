@@ -180,36 +180,6 @@ export const featuredProject = {
   ],
 };
 
-export const testimonials = [
-  {
-    quote:
-      "SmartShala translated a messy operations problem into a product our team actually enjoys using every day.",
-    name: "Udit Kumar Singh",
-    role: "Co-founder and CEO",
-    company: "SmartShala",
-  },
-  {
-    quote:
-      "The weekly demos were crisp, honest, and useful. We always knew what was ready and what needed a decision.",
-    name: "Prashant Singh",
-    role: "Co-founder and CTO",
-    company: "SmartShala",
-  },
-  {
-    quote:
-      "Their AI recommendations were practical. No theatrics, just automation that removed hours of repeated work.",
-    name: "Ved Prakash Sahu",
-    role: "Co-founder and CMO",
-    company: "SmartShala",
-  },
-  {
-    quote:
-      "Good software should feel simple on the outside and dependable underneath. That is the standard we build toward.",
-    name: "Deepanshu Chauhan",
-    role: "Co-founder and Tech lead",
-    company: "SmartShala",
-  },
-];
 
 export const faqs = [
   {
