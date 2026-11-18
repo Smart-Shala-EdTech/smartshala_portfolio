@@ -9,3 +9,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .DS_Store
+.tools/
+audit-screenshots/
+public/images/hero-workstation.jpg
+
